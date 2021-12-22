@@ -1,0 +1,208 @@
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito Sans';
+    background: #30725E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.gambar {
+    height: 700px;
+    width: 758px;
+    background-color: white;
+    align-self: center;
+}
+
+.auth {
+    height: 700px;
+    width: 500px;
+    background-color: white;
+    align-self: center;
+}
+
+.container {
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: row;
+    /* align-self: center; */
+    margin: auto;
+}
+
+.login {
+    background: #30725E;
+}
+
+.border {
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: row;
+    border-radius: 1.8rem;
+    overflow: hidden;
+    border: 7px solid white;
+}
+
+#illus {
+    height: 700px;
+    width: auto;
+}
+
+#logo {
+    height: 50px;
+    width: auto;
+    margin-top: 30px;
+}
+
+.auth{
+    font-family: 'Nunito Sans';
+    color: #525252;
+}
+
+.auth-isi{
+    font-family: 'Nunito Sans';
+    color: #525252;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 600px;
+    width: 100%;
+    gap: 10px;
+}
+
+.login-title {
+    font-family: 'Nunito Sans';
+    color: #525252;
+    display: flex;
+    align-items: left;
+    justify-content: center;
+    flex-direction: column; 
+}
+
+.login-title h1 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    margin: 0;
+}
+
+.login-title h3 {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    margin: 0;
+}
+
+
+
+#isi{
+width: 360px;
+}
+
+#border-id{
+    border: 1.5px solid rgb(196, 196, 196);
+}
+
+button {
+    background-color: #30725E;
+    border: none;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 100px;
+    border-radius: 4px;
+    width: 330px;
+  }
+
+  .c-remember input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+   .c-remember{
+    display: flex;
+    position: relative;
+    justify-content: left;
+    align-items: center;
+    padding-left: 0px;
+    cursor: pointer;
+    font-size: 13px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    height: min-content;
+    width: min-content;
+  }
+  /* Create a custom checkbox */
+  .checkmark {
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 15px;
+    width: 15px;
+    background-color: #eee;
+    margin-right: 8px;
+  }
+
+ 
+  
+  /* On mouse-over, add a grey background color */
+  .c-remember:hover input ~ .checkmark {
+    background-color: #ccc;
+  }
+  
+  /* When the checkbox is checked, add a blue background */
+  .c-remember input:checked ~ .checkmark {
+    background-color: #30725E;
+  }
+  
+  /* Create the checkmark/indicator (hidden when not checked) */
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  /* Show the checkmark when checked */
+  .c-remember input:checked ~ .checkmark:after {
+    display: block;
+  }
+  
+  /* Style the checkmark/indicator */
+  .c-remember .checkmark:after {
+    left: 5px;
+    top: 3px;
+    width: 5px;
+    height: 8px;
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+
+  .remem{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 40px;
+      
+  }
+
+  #rem-p{
+      font-size: 12px;
+      font-style: normal;
+  }
