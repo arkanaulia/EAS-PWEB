@@ -1,0 +1,151 @@
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito Sans';
+    background: #30725E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-x: hidden;
+
+
+}
+
+.dashboard {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu {
+    background-color: white;
+    height: 100%;
+    width: 17%;
+    box-shadow: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.desbor {
+    
+    height: 100%;
+    width: 83%;
+
+}
+
+.fixx {
+    position: fixed;
+}
+
+.menu img {
+    height: 50px;
+    width: auto;
+    margin: 40px;
+}
+
+
+.list-group {
+    width: 300px;
+}
+
+
+.active {
+    background: linear-gradient(90deg, #30725E 39.07%, #60D6B2 99.68%) !important;
+    border: 2px solid #30725E !important;
+    border-radius: 2rem !important;
+    font-weight: bold !important;
+}
+
+.list-group-item {
+    border-style: none !important;
+    border-radius: 2rem !important;
+    padding: 12px !important;
+    padding-left: 30px !important;
+}
+
+
+.menu h2 {
+    margin: 0;
+    font-size: 20px !important;
+    font-style: normal !important;
+    font-weight: bold !important;
+    margin-left: 45px !important;
+    margin-bottom: 10px !important;
+    color: #C7C7C7 !important;
+}
+
+.height {
+    height: 100vh
+}
+
+
+.form {
+    position: relative
+}
+
+.form .fa-search {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color: #9ca3af
+}
+
+.form span {
+    position: absolute;
+    right: 17px;
+    top: 13px;
+    padding: 2px;
+    border-left: 1px solid #d1d5db
+}
+
+.left-pan{
+    padding-left: 7px
+}
+
+.left-pan i {
+    padding-left: 10px
+}
+
+.form-input {
+    height: 55px;
+    text-indent: 33px;
+    border-radius: 10px
+}
+
+.form-input:focus {
+    box-shadow: none;
+    border: none
+}
+
+.form-input {
+    border-radius: 2rem !important;
+}
+
+.desbor{
+    height: 100vh;
+    background-color: #F9F9F9;
+}
+
+.konten{
+    padding-top: 120px;
+}
+
+.jb-img{
+    background-image: url("students-dashboard-img.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: -1100px;
+    border-radius: 10px;
+    /* height: 50%;
+    width: 50%; */
+}
